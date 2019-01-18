@@ -4,6 +4,9 @@ body, head, html{
 	padding:0px !important;
 	margin:0px !important;
 }
+.bg-color{
+	background-color: rgba(42,42,42,0.9);
+}
 .bg-nav-menu-color{
 	background-color: rgba(42,42,42,0.9);
 	width: 100%;
@@ -40,5 +43,41 @@ hr {
 	font-size: 18px;
 }
 .first_pg_height{
-	height: 60vh;
+	height: 40vh;
+}
+.socnet{
+	width: 12.5vh;
+	padding: 1.4vh;
+	padding-bottom: 1.6vh;
+	padding-left: 1.4vh;
+	margin-left: 0px;
+	margin-top: 12vh;
+}
+.socnet img{
+	width: 100%;
+	height: auto;
+}
+.socnetMob{
+	width: 80px;
+	height: 30px;
+	padding: 2px;
+	margin-left:1vh;
+	margin-top: 10vh;
+	margin-bottom:1vh;
+/*	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 30px;*/
+}
+.socnetMob img{
+	width: 20px;
+	height: 20px;
+}
+.width100{
+	width: 100% !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	padding-left: 0px !important;
+}
+.sochover:hover{
+	transform: scale(1.1);
 }
